@@ -1,0 +1,6 @@
+console.log("Hello World")
+console.log(typeof("Hello"))
+console.log(678)
+console.log(typeof(678))
+console.log("1"+"1")
+console.log(1+2)
