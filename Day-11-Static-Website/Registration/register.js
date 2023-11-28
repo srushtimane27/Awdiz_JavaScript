@@ -1,26 +1,33 @@
-function Register(event){
+function Register(event) {
     event.preventDefault();
+    alert("Hi from register fucntion")
+    console.log("hello")
 
-alert("Hi from register function")
-console.log("hiii")
+    var name = document.getElementById("name").value;// assignging
+    console.log(name, "name")
+    var email = document.getElementById("email").value
+    console.log(email, "email ")
+    var password = document.getElementById("password").value;
+    console.log(password, "password")
 
-var name = document.getElementById("name").value;
-console.log(name, "name")
+    if (!name || !email || !password) {
+        return alert("All fields are is required")
+    }
+    var userData = { name: name, email: email, password: password }
+    // console.log("All fields found.")
 
-var email = document.getElementById("email").value;
-console.log(email, "email")
+    var users = JSON.parse(localStorage.getItem("Users")) || [];
 
-var password = document.getElementById("password").value;
-console.log(password, "password")
+    users.push(userData)
 
-if (!name || !email || !password){
-    return alert("All fields are required")
-}
+    localStorage.setItem("Users", JSON.stringify(users))
 
-var userData = { name: name, email: email, password: password}
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("password").value = "";
 
-localStorage.setItem("Users",JSON.stringify(userData))
+    alert("Registration Successfull.")
 
-alert("Resistration Successfully")
+window.location.href = './../LoginPage/login.html'
 
 }
