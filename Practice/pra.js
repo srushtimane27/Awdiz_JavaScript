@@ -228,10 +228,10 @@
 
 
 // var array = [1, 2, 5, 3, 1, 4]
-// var target = 8
+// var target = 6
 // function findTarget(array, target) {
-//     for (var i = 0; i <= array.lenght - 2; i++) {
-//         for (var j = i + 1; j <= array.length - 1; j++) {
+//     for (var i = 0; i < array.lenght - 2; i++) {
+//         for (var j = i + 1; j < array.length - 1; j++) {
 //             for (var k = j + 1; k < array.length; k++) {
 //                 if (target == array[i] + array[j] + array[k]) {
 //                     console.log([i, j, k])
@@ -243,7 +243,7 @@
 // findTarget(array, target)
 
 
-
+// console.log("hello")
 
 // var array = [2, 4, 6, 8, 55, 85]
 // target = 55
@@ -257,8 +257,205 @@
 // findTarget(array, target)
 
 
+// var array = [10, 20, 10, 40, 30, 10];
+// var target = 30;
+
+// function findTarget(array, target){
+//     for(var i=0; i<array.length; i++){
+//         if(array[i] == target){
+//             console.log(array[i])
+//             // console.log(i + "Index is ")
+//         }
+//     }
+// }
+// findTarget(array, target)
+
+// var array = [10, 20, 10, 20, 30]
+// var target = 30;
+
+// function findTarget(array, target){
+//     for(var i=0; i<array.length; i++){
+//         for(var j=0; j<array.length; j++){
+//             if(array[i] + array[j] == target){
+//                 console.log(array[i],array[j])
+//             }
+//         }
+//     }
+// }
+// findTarget(array,target)
+
+// var array = [400, 20, 30, 200, 50];
+// var heighest = array[0];
+
+// function findLargetst(array,heighest){
+//     for(var i=0; i<array.length; i++){
+//         if(array[i] > heighest){
+//             heighest = array[i]  
+//         }
+//     }
+//     console.log(heighest)
+// }
+// findLargetst(array,heighest)
 
 
 
+// Palindrome
 
+// var myName = "aba"
+
+// // console.log(myName[myName.length - 1])
+
+// function isStringPalindrome(string) {
+//     for (var i = 0; i < Math.floor(string.length / 2); i++) { // run 2 times
+//         console.log(string[i], string[string.length - 1 - i])
+//         if (string[i] !== string[string.length - 1 - i]) {
+//             return "Not palindrome"
+//         }
+//     }
+//     return "Its a Palindrome"
+// }
+// console.log(isStringPalindrome(myName))
+
+
+
+// Factorial
+
+// var num = 7;
+// var fact = 1;
+
+// function factorial(){
+//     for(num; num>1; num--){
+//         fact = fact * num;
+//     }
+//     console.log(fact)
+// }
+// console.log(factorial())
+
+// *********************************************************************************************************
+
+// Multiply by 3
+
+// var num = 20
+
+// function multiplyBy(num){
+
+//     if(num % 3 == 0){
+//         return "number is multiplied by three"
+//     } else{
+//         return " number is not multiplied bye three"
+//     }
+
+// }
+// console.log(multiplyBy(num))
+
+// *********************************************************************************************************
+
+// function multiplied(num){
+//     if(num % 3 == 0 || num % 7 == 0){
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+// console.log(multiplied(21))
+
+
+// *********************************************************************************************************
+
+// function closest(x,y){
+
+//     num1 = 100 - x;
+//     num2 = 100 - y;
+
+//     if(num1 < num2){
+//         return "num1 is near to 100"
+//     }else{
+//         return "num2 is near to 100"
+//     }
+
+// }
+// console.log(closest(90,89))
+
+
+// *********************************************************************************************************
+
+// var num = 4;
+// var sum = 0;
+// function simpleAdd(num){
+//     for(var i=0; i<=num; i++){
+//         sum += i;
+//     }
+//     console.log(sum)
+// }
+// console.log(simpleAdd(num))
+
+// *********************************************************************************************************
+
+// for(var i=0; i<=20; i++){
+//     if(i % 2 == 0){
+//         console.log(i)
+//     }
+// }
+
+
+// *********************************************************************************************************
+
+// var x = 10;
+// {
+//     var x = 2;
+//     console.log(x)
+// }
+// console.log(x)
+
+// ***********************************************************************************************************
+
+// let x = 10;
+// {
+//     let x = 5;
+//     console.log(x)
+// }
+// console.log(x)
+
+// *********************************************************************************************************
+
+// const x = 10;
+// {
+//     const x = 6;
+//     console.log(x)
+// }
+// console.log(x)
+
+// *********************************************************************************************************
+
+// let n = 5;
+// for(let i=1; i<=n; i++){
+//     let str = "*";
+//     console.log(str.repeat(i));
+// }
+
+// *********************************************************************************************************
+
+// let n = 5;
+// for(let i=1; i<=n; i++){
+//     console.log("*".repeat(i))
+// }
+
+// *********************************************************************************************************
+
+// forEach 
+
+// const array = ['a', 'b', 'c'];
+
+// array.forEach((element) => console.log(element));
+
+// *********************************************************************************************************
+
+const items = ["item1","item2", "item3"];
+const copyItems = [];
+
+items.forEach((item) => {
+    copyItems.push(item);
+});
+
+console.log(copyItems)
 
