@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving Licence</title>
+
+</head>
+<body>
+    <h1>Driving Licence</h1>
+    <input id="age" type="number" placeholder="Type your age...">
+    <button onclick="checkIsUserValid()">Check</button>
+    <p id="displayResult"></p>
+    
+
+    <script>
+        function checkIsUserValid(){
+        var age = document.getElementById("age").value;
+        const pTag = document.getElementById("displayResult");
+
+        if(age > 18 && age < 81){
+            var div = document.createElement("div")
+            div.style.color = "red"
+            div.innerText = "You are eligible for DL"
+            pTag.appendChild(div)
+            alert("You are eligible for DL")
+        }else if(age == 18){
+            var h1 = document.createElement("h1")
+            h1.style.color = "blue"
+            h1.innerText = "You are eligible for DL"
+            pTag.appendChild(h1)
+            alert("You are eligible for DL")
+
+        }else{
+            var h2 = document.createElement("h2")
+            h2.style.color = "pink"
+            h2.innerText = "You are not eligible for DL"
+            pTag.appendChild(h2)
+            alert("You are not eligible for DL")
+        }
+        document.getElementById("age").value = ""
+    }
+
+    </script>
+
+</body>
+</html>
