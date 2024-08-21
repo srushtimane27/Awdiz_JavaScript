@@ -292,7 +292,6 @@
 
 // findEven(numbers, evenArray);
 
-
 // var array = [1,2,3,4,5,6,50,28,75,43,20,37];
 // var target = 50;
 
@@ -306,7 +305,6 @@
 //     // console.log(array(i))
 // }
 // findTarget(array, target);
-
 
 // console.log(console.log("abc"))
 
@@ -549,8 +547,6 @@
 
 // console.log(copyItems)
 
-
-
 // const items = ["apple", "mango", "banana", "pineapple"];
 // const copyItems = [];
 
@@ -560,13 +556,11 @@
 
 // console.log(copyItems)
 
-
 // for (var i=10; i<=25; i++){
 //     if(i%2 == 0){
 //         console.log(i)
 //     }
 // }
-
 
 // var count = 0;
 // for(var i=1; i<=20; i++){
@@ -575,7 +569,6 @@
 //     }
 // }
 // console.log(count)
-
 
 // var oddCount = 0;
 // var evenCount = 0;
@@ -590,7 +583,6 @@
 // console.log(oddCount, "OddCount")
 // console.log(evenCount, "EvenCount")
 
-
 // var oddNumbers = [];
 
 // for(var i=10; i<=20; i++){
@@ -599,7 +591,6 @@
 //     }
 // }
 // console.log(oddNumbers, "list")
-
 
 // var numbers = [4, 10, 3, 5, 1, 20];
 // var evenArray = [];
@@ -618,7 +609,6 @@
 // }
 
 // var rows = 5;
-
 
 // for(var i=1; i<=rows; i++){
 //     var line = "";
@@ -646,7 +636,6 @@
 //     }
 // }
 
-
 // function findSecondLargest(arr) {
 //     let largest = arr[0];
 //     let secondLargest = -Infinity;
@@ -665,13 +654,6 @@
 //   const secondLargest = findSecondLargest(array);
 //   console.log("Second largest element:", secondLargest);
 
-
-
-
-
-
-
-
 // var arr = [10, 20, 30, 40, 50];
 
 // var target = 40;
@@ -688,7 +670,6 @@
 //     console.log("Number Not Found")
 // }
 
-
 // var arr = [20, 40, 50, 60, 10];
 
 // var large = arr[0];
@@ -699,7 +680,6 @@
 //     }
 // }
 // console.log(large);
-
 
 // var arr = [9, 8, 5, 6, 4];
 
@@ -716,7 +696,6 @@
 //     console.log(secondLargest);
 // }
 
-
 // var arr = [10,30,50,30,70,60]
 // var newArr = []
 
@@ -727,9 +706,8 @@
 //         console.log(newArr)
 //        }
 //     }
-    
-// }
 
+// }
 
 // var num = 8;
 // var fact = 1;
@@ -740,14 +718,11 @@
 // }
 // console.log(fact)
 
-
 // var num = 4;
 
 // for(var num; num>=10; num++){
 //     console.log(num)
 // }
-
-
 
 // var n = 5;
 
@@ -769,7 +744,6 @@
 //     }
 // }
 
-
 // const array = ['a', 'b', 'c', 'd'];
 
 // array.forEach((element) => console.log(element));
@@ -782,7 +756,6 @@
 // })
 
 // console.log(copyItems);
-
 
 // function findSecondLargest(arr){
 //     let largest = arr[0];
@@ -803,7 +776,6 @@
 // const secondLargest = findSecondLargest(array);
 // console.log("Second Largest element:", secondLargest);
 
-
 // Find Largest Element In an Array
 
 // function findLargest(){
@@ -812,23 +784,19 @@
 //     for(let i=0; i<=array.length; i++){
 //         if(array[i] > largest){
 //             largest = array[i]
-           
-//         } 
+
+//         }
 //     }rgest;
 // }
 // const array = [8, 4, 3, 1, 2, 9];
 // const largest = findLargest(array);
 // console.log("Largest Element In An Array: ", largest);
 
-
-
 // let arr = [1, 1, 1, 2, 2, 5, 4, 7, 8, 9, 7, 4, 3 ,5 ,6 ,8];
 
 // let newUniqueArr = [...new Set(arr)];
 
 // console.log(newUniqueArr);
-
-
 
 // function getAge(...args){
 //     console.log(typeof args)
@@ -844,8 +812,6 @@
 
 // console.log("Hello" - "Srushti");
 
-
-
 // function findSmallest(){
 //     let smallest = array[0];
 
@@ -859,8 +825,6 @@
 // const array = [5,2,7,9,6,4];
 // const smallest = findSmallest(array);
 // console.log("smallest: ", smallest);
-
-
 
 // function findSecondSmallest(){
 //     let smallest = array[0];
@@ -879,7 +843,6 @@
 // const secondSmallest = findSecondSmallest(array);
 // console.log("Second Smallest: ", secondSmallest);
 
-
 // let rows = 5;
 // let pattern = "";
 
@@ -890,8 +853,6 @@
 //     pattern += "\n";
 // }
 // console.log(pattern);
-
-
 
 // let rows = 5;
 // let colum = 5;
@@ -904,7 +865,6 @@
 //     pattern += "\n";
 // }
 // console.log(pattern);
-
 
 // let rows = 5;
 // let pattern = "";
@@ -920,7 +880,6 @@
 // }
 // console.log(pattern);
 
-
 // let rows = 5;
 // let pattern = "";
 
@@ -934,9 +893,6 @@
 //    pattern += "\n";
 // }
 // console.log(pattern);
-
-
-
 
 // const months = ["Jan", "March", "April", "May", "june"];
 
@@ -957,7 +913,6 @@
 // console.log(animals.shift());
 // console.log(animals);
 
-
 // var myEmp = ['Eva', 'Malhar', 'Jija', 'Akshay'];
 
 // for(let elements in myEmp){
@@ -966,13 +921,11 @@
 
 // for(let element of myEmp){
 //     console.log(element)
-// } 
+// }
 
 // myEmp.forEach((element, index, array) => {
 //     console.log(element + "index" + index + "" + array)
 // });
-
-
 
 // var arr = [2, 3, 4, 6, 8];
 
@@ -983,15 +936,11 @@
 //     }
 // }
 
-
-
 // let arr = [25, 36, 49, 64, 81];
 
 // for (var i=0; i<=arr.length; i++){
-    
+
 // }
-
-
 
 // const months = ['Jan', 'march', 'April', 'June', 'July'];
 
@@ -1004,7 +953,6 @@
 //     console.log('No Such Data Found');
 // }
 
-
 // const indexOfMonth = months.indexOf('June');
 
 // if(indexOfMonth != 1){
@@ -1013,7 +961,6 @@
 // } else {
 //     console.log('No Such Data Found');
 // }
-
 
 // const indexOfMonth = months.indexOf('April');
 
@@ -1024,8 +971,6 @@
 //    console.log('No Such Data Found');
 // }
 
-
-
 // Map() Method
 
 // const array = [1,4,9,16,25];
@@ -1033,12 +978,10 @@
 // const greaterThanNine = array.map((e)=>e > 9);
 // console.log(greaterThanNine);
 
-
 // const arr = [25,36,49,64,81];
 
 // const newArr = arr.map((curElem) =>Math.sqrt(curElem));
 // console.log(newArr);
-
 
 // const arr = [2,3,4,6,8];
 
@@ -1055,7 +998,6 @@
 // })
 // console.log(sum);
 
-
 // *****************************************
 // String
 
@@ -1066,61 +1008,21 @@
 // console.log(myName.length);
 // console.log(myName.indexOf("Jadhav"));
 
-
 // Slice() Method
 
 // var str = "Apple, Banana, Kiwi";
 // var res = str.slice(0,8);
 // console.log(res);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // var array = [1, 4, 3, 4, 5, 1, 8, 8, 9, 7, 6, 7, 8];
 
 // var uniqueArray = [...new Set(array)];
 // console.log(uniqueArray);
 
-
 // var names = ["Srushti", "Tom", "Lisa","Tom","Peter", "Raj","Tom","Peter"]
 
 // var uniqueNames = [...new Set(names)];
 // console.log(uniqueNames);
-
 
 // let numbers = [1,2,3];
 // let doubleNumbers = numbers.map((e) => e*2);
@@ -1131,15 +1033,12 @@
 // let celTemp = fahArray.map((e)=>((e-32)*(5/9)))
 // console.log(celTemp);
 
-
 // let num = [1,2,3,4,5,6,7,8,9,10];
 // let evenNum = num.filter((e) => e % 2 === 0);
 // console.log(evenNum);
 
 // let greaterThanOne = num.filter((e) => e > 10);
 // console.log(greaterThanOne);
-
-
 
 // let employee = [
 //    {name: "John", age: 30, gender: "male"},
@@ -1154,30 +1053,21 @@
 
 // console.log(femaleEmp);
 
-
-
 // const obj1 = {name: "ABC", id: "100", Gender: "Female"};
 // const obj2 = {name: "XYZ", id: "200", Gender: "Male"};
 
-
 // const mergeObjects = ({...obj1, ...obj2});
 // console.log(mergeObjects);
-
-
-
 
 // let str = "Hello Keka";
 
 // const reverseString = str.split('').reverse().join('');
 // console.log(reverseString);
 
-
 // let arr = [4,5,7,6,3,1,2];
 
 // let evenNumbers = arr.filter((e)=> e % 2 === 0);
 // console.log(evenNumbers);
-
-
 
 // let rows = 10;
 // let pattern = "";
@@ -1189,7 +1079,6 @@
 //     pattern += "\n";
 // }
 // console.log(pattern);
-
 
 // let rows = 8;
 // let column = 8;
@@ -1217,7 +1106,6 @@
 // }
 // console.log(pattern);
 
-
 // let rows = 5;
 // let pattern = "";
 
@@ -1232,7 +1120,6 @@
 // }
 // console.log(pattern);
 
-
 // const str = "Hello Srushti";
 
 // const reverseString = str.split('').reverse().join('');
@@ -1243,11 +1130,9 @@
 // const reverseString = string.split('').reverse().join('');
 // console.log(reverseString);
 
-
 // const arr = [4,7,8,6,5,4,1,2,7,8];
 // const uniqueArray = [...new Set(arr)];
 // console.log(uniqueArray);
-
 
 // const str = 'hello';
 
@@ -1256,7 +1141,6 @@
 
 // const unique = new Set(str).join('');
 // console.log(unique);
-
 
 // let numbers = [1,2,3,4,5,6];
 
@@ -1271,12 +1155,9 @@
 // let cel = fahArray.map((e)=>(e-32)*(5/9));
 // console.log(cel);
 
-
 // let num = [1,2,3,4,5];
 // let evenNum = num.filter((e) => e%2 === 0);
 // console.log(evenNum);
-
-
 
 // function findSmallest(){
 //     let smallest = array[0];
@@ -1293,8 +1174,6 @@
 // const smallest = findSmallest(array);
 // console.log("Smallest", smallest);
 
-
-
 // function findLargest(){
 //     let largest = array[0];
 
@@ -1308,7 +1187,6 @@
 // const array = [50,40,70,80,90];
 // const largest = findLargest(array);
 // console.log("largest:", largest);
-
 
 // function findSecondSmallest(){
 //     let smallest = array[0];
@@ -1328,8 +1206,6 @@
 // const secondSmallest = findSecondSmallest(array);
 // console.log("Second Smallest: " , secondSmallest);
 
-
-
 // function findSecondLargest(){
 //      let largest = arr[0];
 //      let secondLargest = -Infinity;
@@ -1345,12 +1221,9 @@
 //      return secondLargest;
 // }
 
-
 // const arr = [10,20,30,40,50];
 // const secondLargest = findSecondLargest(arr);
 // console.log("SECLARGEST", secondLargest);
-
-
 
 // let rows = 5;
 // let pattern = "";
@@ -1375,11 +1248,9 @@
 // }
 // console.log(pattern);
 
-
 // const str = "Hey Hi";
 // const reverseString = str.split('').reverse().join();
 // console.log(reverseString)
-
 
 // let numbers = [1,2,3,4];
 // let doubleNumbers = numbers.map((e)=>e*10);
@@ -1389,58 +1260,174 @@
 // let newNumber = number.map((e)=>e*10);
 // console.log(newNumber);
 
-
 // let num = [1,2,3,4,5,6,7,8,9,10,18,14];
 // let evenNum = num.filter((e)=>e>=10);
 // console.log(evenNum);
 
-let emp = [{name: "ABC", age: "30", gender: "FEMALE"},
-        {name: "XYZ", age: "10", gender: "MALE"},
-        {name: "DEF", age: "40", gender: "FEMALE"}
-];
-let femaleEmp = emp.filter((emp)=>{
-    return emp.gender === "FEMALE" && emp.age > 10;
-});
-console.log(femaleEmp);
+// let emp = [{name: "ABC", age: "30", gender: "FEMALE"},
+//         {name: "XYZ", age: "10", gender: "MALE"},
+//         {name: "DEF", age: "40", gender: "FEMALE"}
+// ];
+// let femaleEmp = emp.filter((emp)=>{
+//     return emp.gender === "FEMALE" && emp.age > 10;
+// });
+// console.log(femaleEmp);
+
+// const animals = ["cat", "dog", "rat", "cow"];
+
+// const newAnimal = animals.splice(animals.length, 0, "ship");
+// console.log(animals);
+
+// animals.push("peacock");
+// console.log(animals);
+
+// animals.unshift("chicken")
+// console.log(animals);
+
+// console.log(animals.shift());
+// console.log(animals);
+
+// function sum(a,b){
+//     var total = a + b;
+//     console.log(total)
+// }
+
+// var funExp = sum(10,20);
+// funExp();
+
+// var animals = ["cat","Dog","ship","Monkey"];
+
+// for(let elements of animals){
+//     console.log(elements)
+// }
+
+// animals.forEach(function(element,index,array){
+//     console.log(element + "index" + index + "" + array)
+// });
+
+// animals.shift();
+// console.log(animals);
+
+// const newAnimal = animals.splice(animals.length, 1, "ship");
+// console.log(animals);
+
+// let numbers = [1,2,3,4]
+// let doubleNumbers = numbers.map((e)=>e*2);
+// console.log(doubleNumbers);
+
+// let num = [10,20,30,40];
+// let mul = num.map((e)=>e*5);
+// console.log(mul);
+
+// let num = [10,20,30,41];
+// let even = num.filter((e)=>e%2 === 0);
+// console.log(even);
+
+// let gt = num.filter((e) => e >= 20);
+// console.log(gt);
+
+// const str = "HEY HII"
+
+// const reverseString = str.split('').reverse().join('');
+// console.log(reverseString);
+
+// let rows = 5;
+// let pattern = "";
+
+// for(let i=1; i<=rows; i++){
+//     for(let j=1; j<=i; j++){
+//         pattern += "*"
+//     }
+//     pattern += "\n"
+// }
+// console.log(pattern)
+
+// let rows = 5;
+// let col = 5;
+// let pattern = "";
+
+// for(let i=1; i<=rows; i++){
+//     for(let j=1; j<=col; j++){
+//       pattern += "*"
+//     }
+//     pattern += "\n"
+// }
+// console.log(pattern)
+
+// var friends = ["Ruchi", "Rasika", "Jidnya", "Srushti"]
+
+// for(let elements of friends){
+//     console.log(elements)
+// }
+
+// let num = [10,20,30,40,55];
+// let evenNumbers = num.filter((e)=>e%2 === 0)
+// console.log(evenNumbers)
+
+// let rows = 5;
+// let pattern = "";
+
+// for(let i=1; i<=rows; i++){
+//     for(let j=1; j<=i; j++){
+//         pattern += "*"
+//     }
+//     pattern += "\n"
+// }
+// console.log(pattern);
+
+// function findSmallest(){
+//     let smallest = arr[0];
+
+//     for(let i=1; i<=arr.length; i++){
+//         if(arr[i] < smallest){
+//             smallest = arr[i]
+//         }
+//     }
+//     return smallest;
+// }
+// const arr = [90,54,37,48,6,17];
+// const smallest = findSmallest(arr);
+// console.log("Smallest", smallest);
+
+// const array = [10,20,30,40,50,60,70,80];
+
+// for(var i=array.length-2; i>=0; i-=10){
+//       console.log(array[i])
+// }
+
+// var numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+//   for (var i = 12; i > 1; i -= 5) {
+//   console.log(numbers[i]);
+// }
 
 
+// var num = [7,4,5,6,8,1,3,2];
+// for(var i=12;  i>1; i-=5){
+//     console.log(num[i])
+// }
+ 
+
+// var num = [10,20,30,40,50,60,70,80];
+
+// for(var i=14; i>1; i-=5){
+//     console.log(num[i])
+// }
 
 
+// console.log(mul(2)(3)(4));
 
+// var arrayList = ['a','b','c','d']
+// // var arrayList = []
+// // arrayList.pop();
+// // arrayList.pop();
+// // arrayList.pop();
+// // arrayList.pop();
+// // arrayList.length = 0;
+// arrayList.splice(0, arrayList.length);
+// console.log(arrayList);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var output = (function(x){
+    delete x;
+    return x;
+})(0);
+console.log(output);

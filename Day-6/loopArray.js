@@ -7,17 +7,17 @@ for(var i=10; i>0; i--){
 //     console.log(i)
 // }
 
-for(var i=20; i>=10; i-=2){
-    console.log(i)
-}
+// for(var i=20; i>=10; i-=2){
+//     console.log(i)
+// }
 
-for(var i=20; i>0; i--){
-    console.log(i)
-}
+// for(var i=20; i>0; i--){
+//     console.log(i)
+// }
 
-for(var i=50; i>10; i-=10){
-    console.log(i)
-}
+// for(var i=50; i>10; i-=10){
+//     console.log(i)
+// }
 
 // Array Loop
 var emp = ["Sahil","Akshay","Malhar","Aaryan"]
